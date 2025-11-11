@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+.custom-card {
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.big-width {
+    grid-column: span 2;
+}
+
+.big-height {
+    height: calc(200% + 1.5rem);
+}
+
+@media (max-width: 991px) {
+    .big-height {
+        height: auto;
+    }
+}
